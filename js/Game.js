@@ -108,13 +108,13 @@ class Game{
 
                         if(fruit.isTouching(player1)){
                             fruit.destroy();
-                            
+                          
                             player.update();
                         }
 
                         if(fruit.isTouching(player2)){
                             fruit.destroy();
-                           
+                            
                             player.update();
                         }
                     }
